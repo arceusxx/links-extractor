@@ -32,7 +32,7 @@ else:
     file_name = input("File name:\n")
     current_time = datetime.now().strftime("%H-%M-%S")
     if not file_name:
-        file_name = f"liens pour {current_time}.csv"
+        file_name = f"links for {current_time}.csv"
     else:
         file_name = f"{file_name}.csv"
 
